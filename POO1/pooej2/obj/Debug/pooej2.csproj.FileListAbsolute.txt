@@ -1,0 +1,7 @@
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\pooej2\bin\Debug\pooej2.exe.config
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\pooej2\bin\Debug\pooej2.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\pooej2\bin\Debug\pooej2.pdb
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\pooej2\obj\Debug\pooej2.csproj.AssemblyReference.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\pooej2\obj\Debug\pooej2.csproj.CoreCompileInputs.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\pooej2\obj\Debug\pooej2.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\pooej2\obj\Debug\pooej2.pdb

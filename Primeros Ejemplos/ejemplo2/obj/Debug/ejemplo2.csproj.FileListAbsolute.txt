@@ -1,0 +1,7 @@
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\Primeros Ejemplos\ejemplo2\bin\Debug\ejemplo2.exe.config
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\Primeros Ejemplos\ejemplo2\bin\Debug\ejemplo2.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\Primeros Ejemplos\ejemplo2\bin\Debug\ejemplo2.pdb
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\Primeros Ejemplos\ejemplo2\obj\Debug\ejemplo2.csproj.AssemblyReference.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\Primeros Ejemplos\ejemplo2\obj\Debug\ejemplo2.csproj.CoreCompileInputs.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\Primeros Ejemplos\ejemplo2\obj\Debug\ejemplo2.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\Primeros Ejemplos\ejemplo2\obj\Debug\ejemplo2.pdb

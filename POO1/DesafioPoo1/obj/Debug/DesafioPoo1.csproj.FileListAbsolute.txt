@@ -1,0 +1,7 @@
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\DesafioPoo1\bin\Debug\DesafioPoo1.exe.config
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\DesafioPoo1\bin\Debug\DesafioPoo1.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\DesafioPoo1\bin\Debug\DesafioPoo1.pdb
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\DesafioPoo1\obj\Debug\DesafioPoo1.csproj.AssemblyReference.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\DesafioPoo1\obj\Debug\DesafioPoo1.csproj.CoreCompileInputs.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\DesafioPoo1\obj\Debug\DesafioPoo1.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\POO1\DesafioPoo1\obj\Debug\DesafioPoo1.pdb

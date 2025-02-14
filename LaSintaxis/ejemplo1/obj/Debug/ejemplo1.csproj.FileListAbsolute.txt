@@ -1,0 +1,7 @@
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\LaSintaxis\ejemplo1\bin\Debug\ejemplo1.exe.config
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\LaSintaxis\ejemplo1\bin\Debug\ejemplo1.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\LaSintaxis\ejemplo1\bin\Debug\ejemplo1.pdb
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\LaSintaxis\ejemplo1\obj\Debug\ejemplo1.csproj.AssemblyReference.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\LaSintaxis\ejemplo1\obj\Debug\ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\LaSintaxis\ejemplo1\obj\Debug\ejemplo1.exe
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\LaSintaxis\ejemplo1\obj\Debug\ejemplo1.pdb
