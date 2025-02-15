@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|c:\\users\\virginia\\desktop\\nacho\\maxi programa\\c# nivel 2\\tpfinalnivel2_lopezezcurra\\presentacion\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|c:\\users\\virginia\\desktop\\nacho\\maxi programa\\c# nivel 2\\tpfinalnivel2_lopezezcurra\\presentacion\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|c:\\users\\virginia\\desktop\\nacho\\maxi programa\\c# nivel 2\\tpfinalnivel2_lopezezcurra\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|c:\\users\\virginia\\desktop\\nacho\\maxi programa\\c# nivel 2\\tpfinalnivel2_lopezezcurra\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,16 +34,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ArticuloNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\ArticuloNegocio.cs",
               "RelativeDocumentMoniker": "presentacion\\ArticuloNegocio.cs",
               "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\ArticuloNegocio.cs",
               "RelativeToolTip": "presentacion\\ArticuloNegocio.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAhAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAjwB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:08:28.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T13:08:28.753Z"
             },
             {
               "$type": "Document",
@@ -53,27 +52,14 @@
               "RelativeDocumentMoniker": "presentacion\\Form1.cs",
               "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Form1.cs",
               "RelativeToolTip": "presentacion\\Form1.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAIwA0AAAAFAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAIA2wCMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T13:06:56.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Articulo.cs",
-              "RelativeDocumentMoniker": "presentacion\\Articulo.cs",
-              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Articulo.cs",
-              "RelativeToolTip": "presentacion\\Articulo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:03:16.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Form1.cs",
               "RelativeDocumentMoniker": "presentacion\\Form1.cs",
@@ -85,6 +71,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Articulo.cs",
+              "RelativeDocumentMoniker": "presentacion\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Articulo.cs",
+              "RelativeToolTip": "presentacion\\Articulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:03:16.177Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Program.cs",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "presentacion\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T12:53:59.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T12:53:59.512Z"
             }
           ]
         }
