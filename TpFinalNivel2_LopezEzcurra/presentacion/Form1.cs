@@ -23,7 +23,7 @@ namespace presentacion
             ArticuloNegocio negocio = new ArticuloNegocio();
             listaArticulo = negocio.listar();
             dgvArticulos.DataSource = listaArticulo;
-           cargarImagen(listaArticulo[0].UrlImagen);
+            dgvArticulos.Columns["UrlImagen"].Visible = false; //aqui por alguna razon se rompe, pero cambie el ImagenUrl a Url Imagen y funciono
         }
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
