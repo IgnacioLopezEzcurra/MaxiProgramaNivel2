@@ -8,3 +8,9 @@ C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcu
 C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\obj\Debug\presentacion.csproj.CoreCompileInputs.cache
 C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\obj\Debug\presentacion.exe
 C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\obj\Debug\presentacion.pdb
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\bin\Debug\dominio.dll
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\bin\Debug\dominio.pdb
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\obj\Debug\presenta.D2D8CCE5.Up2Date
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\bin\Debug\negocio.dll
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\bin\Debug\negocio.pdb
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\obj\Debug\presentacion.frmAltaArticulo.resources
