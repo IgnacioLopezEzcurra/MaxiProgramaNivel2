@@ -34,7 +34,16 @@ namespace negocio
                     aux.Codigo = (string)lector["Codigo"];
                     aux.Nombre = (string)lector["Nombre"];
                     aux.Descripcion = (string)lector["Descripcion"];
-                    aux.UrlImagen = (string)lector["ImagenUrl"];
+
+                    /* if (!(lector.IsDBNull(lector.GetOrdinal("ImagenUrl")))){ 
+
+                     aux.UrlImagen = (string)lector["ImagenUrl"];
+                     }*/
+
+                    if (!(lector["ImagenUrl"] is DBNull))           //la opcion mas practica
+                        aux.UrlImagen = (string)lector["ImagenUrl"];
+
+
                     aux.Categoria = new Categoria();
                     aux.Categoria.Descripcion = (string)lector["Categoria"];
                     aux.Marca = new Marca();
@@ -62,7 +71,9 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("Insert into ARTICULOS (Codigo, Nombre, Descripcion) values ('"+ nuevo.Codigo + "', '" + nuevo.Nombre + "', '" + nuevo.Descripcion +"')");
+                datos.setearConsulta("Insert into ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria) values ('"+ nuevo.Codigo + "', '" + nuevo.Nombre + "', '" + nuevo.Descripcion + "', @idMarca, @idCategoria)");
+                datos.setearParametro("@idMarca", nuevo.Marca.Id);
+                datos.setearParametro("@idCategoria", nuevo.Categoria.Id);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)

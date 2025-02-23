@@ -23,9 +23,18 @@ namespace presentacion
         private void catalogo_Load(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
-            listaArticulo = negocio.listar();
-            dgvArticulos.DataSource = listaArticulo;
-            dgvArticulos.Columns["UrlImagen"].Visible = false; //aqui por alguna razon se rompe, pero cambie el ImagenUrl a Url Imagen y funciono
+
+            try
+            {
+                listaArticulo = negocio.listar();
+                dgvArticulos.DataSource = listaArticulo;
+                dgvArticulos.Columns["UrlImagen"].Visible = false; //aqui por alguna razon se rompe, pero cambie el ImagenUrl a Url Imagen y funciono
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
