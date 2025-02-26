@@ -22,6 +22,17 @@ namespace presentacion
 
         private void catalogo_Load(object sender, EventArgs e)
         {
+            cargar();
+        }
+
+        private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
+        {
+            Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+            cargarImagen(seleccionado.UrlImagen);
+        }
+
+        private void cargar()
+        {
             ArticuloNegocio negocio = new ArticuloNegocio();
 
             try
@@ -35,12 +46,6 @@ namespace presentacion
 
                 MessageBox.Show(ex.ToString());
             }
-        }
-
-        private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
-        {
-            Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
-            cargarImagen(seleccionado.UrlImagen);
         }
 
         private void cargarImagen(string imagen)
@@ -59,6 +64,7 @@ namespace presentacion
         {
             frmAltaArticulo alta = new frmAltaArticulo();
             alta.ShowDialog();
+            cargar();
         }
     }
 }
