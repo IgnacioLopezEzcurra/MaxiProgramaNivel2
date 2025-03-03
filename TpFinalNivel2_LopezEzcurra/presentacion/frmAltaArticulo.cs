@@ -34,6 +34,7 @@ namespace presentacion
                 arti.Codigo = txtCodigo.Text;
                 arti.Nombre = txtNombre.Text;
                 arti.Descripcion = txtDescripcion.Text;
+                arti.UrlImagen = txtUrlImagen.Text;
                 arti.Categoria = (Categoria)cboCategoria.SelectedItem;
                 arti.Marca = (Marca)cboMarca.SelectedItem;
 
@@ -65,5 +66,23 @@ namespace presentacion
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void txtUrlImagen_Leave(object sender, EventArgs e)
+        {
+            cargarImagen(txtUrlImagen.Text);
+        }
+
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                pbxArticulo.Load(imagen);
+            }
+            catch (Exception ex)
+            {
+                pbxArticulo.Load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNtN2O8GLWKd2e1flZtF-fX0J8cwnjN78qVA&s");
+            }
+        }
+
     }
 }

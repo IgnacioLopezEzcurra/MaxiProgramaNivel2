@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Net.Http.Headers;
 using dominio;
+using System.Runtime.Remoting.Messaging;
 
 namespace negocio
 {
@@ -22,7 +23,7 @@ namespace negocio
             {
                 conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_DB;integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "SELECT Codigo, Nombre, A.Descripcion, ImagenUrl, C.Descripcion Categoria, M.Descripcion Marca\r\nfrom ARTICULOS A, CATEGORIAS C, MARCAS M\r\nwhere C.Id = A.IdCategoria AND A.IdMarca = M.Id";
+                comando.CommandText = "SELECT Codigo, Nombre, A.Descripcion, ImagenUrl, C.Descripcion Categoria, M.Descripcion Marca, A.Precio\r\nfrom ARTICULOS A, CATEGORIAS C, MARCAS M\r\nwhere C.Id = A.IdCategoria AND A.IdMarca = M.Id";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -49,6 +50,10 @@ namespace negocio
                     aux.Marca = new Marca();
                     aux.Marca.Descripcion = (string)lector["Marca"];
 
+                    if (!(lector["Precio"] is DBNull))
+                    aux.Precio = (decimal)lector["Precio"];
+                    //aux.Precio = lector.GetDecimal(lector.GetOrdinal("Precio")); forma mas larga de castear
+
                     lista.Add(aux);
                 }
 
@@ -71,9 +76,10 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("Insert into ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria) values ('"+ nuevo.Codigo + "', '" + nuevo.Nombre + "', '" + nuevo.Descripcion + "', @idMarca, @idCategoria)");
+                datos.setearConsulta("Insert into ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, ImagenUrl) values ('"+ nuevo.Codigo + "', '" + nuevo.Nombre + "', '" + nuevo.Descripcion + "', @idMarca, @idCategoria, @urlImagen)");
                 datos.setearParametro("@idMarca", nuevo.Marca.Id);
                 datos.setearParametro("@idCategoria", nuevo.Categoria.Id);
+                datos.setearParametro("@urlImagen", nuevo.UrlImagen);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)

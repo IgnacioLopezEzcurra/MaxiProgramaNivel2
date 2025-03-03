@@ -39,7 +39,7 @@ namespace presentacion
             {
                 listaArticulo = negocio.listar();
                 dgvArticulos.DataSource = listaArticulo;
-                dgvArticulos.Columns["UrlImagen"].Visible = false; //aqui por alguna razon se rompe, pero cambie el ImagenUrl a Url Imagen y funciono
+                dgvArticulos.Columns["UrlImagen"].Visible = false; //aqui por alguna razon se rompía, pero cambie el ImagenUrl a Url Imagen y funciono
             }
             catch (Exception ex)
             {
