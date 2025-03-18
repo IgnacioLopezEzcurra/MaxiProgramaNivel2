@@ -37,6 +37,7 @@ namespace presentacion
                 arti.UrlImagen = txtUrlImagen.Text;
                 arti.Categoria = (Categoria)cboCategoria.SelectedItem;
                 arti.Marca = (Marca)cboMarca.SelectedItem;
+                arti.Precio = decimal.Parse(txtPrecio.Text); // si ingreso decimal con punto o coma lo ingresa sin problemas
 
                 negocio.agregar(arti);
                 MessageBox.Show("Agregado exitosamente");
