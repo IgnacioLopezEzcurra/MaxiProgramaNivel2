@@ -31,15 +31,32 @@ namespace presentacion
             ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
+
+                // Validar si el precio ingresado es válido
+                if (!decimal.TryParse(txtPrecio.Text, out decimal precio))
+                {
+                    MessageBox.Show("Formato de precio inválido. Por favor, use coma (,) para separar decimales y no ingrese letras ni otros caracteres.", "Error en el precio", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return; // Termina la ejecución si el precio es inválido.
+                }
+
+                // Si se ingresó un punto, mostrar mensaje y no continuar
+                if (txtPrecio.Text.Contains("."))
+                {
+                    MessageBox.Show("El punto (.) no es un separador válido. Por favor, use coma (,) para separar decimales.", "Error en el precio", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return; // Detiene la ejecución si se detecta un punto.
+                }
+
+
                 arti.Codigo = txtCodigo.Text;
                 arti.Nombre = txtNombre.Text;
                 arti.Descripcion = txtDescripcion.Text;
                 arti.UrlImagen = txtUrlImagen.Text;
                 arti.Categoria = (Categoria)cboCategoria.SelectedItem;
                 arti.Marca = (Marca)cboMarca.SelectedItem;
-                arti.Precio = decimal.Parse(txtPrecio.Text); // si ingreso decimal con punto o coma lo ingresa sin problemas
-
+                arti.Precio = decimal.Parse(txtPrecio.Text); // si ingreso decimal con punto no reconoce el punto como separacion de decimal, hay que solucionar esto
                 negocio.agregar(arti);
+
+
                 MessageBox.Show("Agregado exitosamente");
                 Close();
            
