@@ -40,6 +40,7 @@ namespace presentacion
                 listaArticulo = negocio.listar();
                 dgvArticulos.DataSource = listaArticulo;
                 dgvArticulos.Columns["UrlImagen"].Visible = false; //aqui por alguna razon se rompía, pero cambie el ImagenUrl a Url Imagen y funciono
+                dgvArticulos.Columns["Id"].Visible = false;
             }
             catch (Exception ex)
             {
@@ -64,6 +65,16 @@ namespace presentacion
         {
             frmAltaArticulo alta = new frmAltaArticulo();
             alta.ShowDialog();
+            cargar();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Articulo seleccionado;
+            seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+
+            frmAltaArticulo modificar = new frmAltaArticulo(seleccionado);
+            modificar.ShowDialog();
             cargar();
         }
     }

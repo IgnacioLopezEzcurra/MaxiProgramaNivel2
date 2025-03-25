@@ -23,7 +23,7 @@ namespace negocio
             {
                 conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_DB;integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "SELECT Codigo, Nombre, A.Descripcion, ImagenUrl, C.Descripcion Categoria, M.Descripcion Marca, A.Precio\r\nfrom ARTICULOS A, CATEGORIAS C, MARCAS M\r\nwhere C.Id = A.IdCategoria AND A.IdMarca = M.Id";
+                comando.CommandText = "SELECT Codigo, Nombre, A.Descripcion, ImagenUrl, C.Descripcion Categoria, M.Descripcion Marca, A.Precio, A.IdCategoria, A.IdMarca, A.Id\r\nfrom ARTICULOS A, CATEGORIAS C, MARCAS M\r\nwhere C.Id = A.IdCategoria AND A.IdMarca = M.Id";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -32,6 +32,7 @@ namespace negocio
                 while (lector.Read())
                 {
                     Articulo aux = new Articulo();
+                    aux.Id = (int)lector["Id"];
                     aux.Codigo = (string)lector["Codigo"];
                     aux.Nombre = (string)lector["Nombre"];
                     aux.Descripcion = (string)lector["Descripcion"];
@@ -46,9 +47,11 @@ namespace negocio
 
 
                     aux.Categoria = new Categoria();
+                    aux.Categoria.Id = (int)lector["IdCategoria"];
                     aux.Categoria.Descripcion = (string)lector["Categoria"];
                     aux.Marca = new Marca();
                     aux.Marca.Descripcion = (string)lector["Marca"];
+                    aux.Marca.Id = (int)lector["IdMarca"];
 
                     if (!(lector["Precio"] is DBNull))
                     aux.Precio = (decimal)lector["Precio"];
@@ -98,7 +101,30 @@ namespace negocio
 
         public void modificar(Articulo modificar)
         {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("update ARTICULOS set Codigo = @codigo, Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idMarca, IdCategoria = @idCategoria, ImagenUrl = @urlImagen, Precio = @precio where Id = @id");
+                datos.setearParametro("@codigo", modificar.Codigo);
+                datos.setearParametro("@nombre", modificar.Nombre);
+                datos.setearParametro("@descripcion", modificar.Descripcion);
+                datos.setearParametro("@idMarca", modificar.Marca.Id);
+                datos.setearParametro("@idCategoria", modificar.Categoria.Id);
+                datos.setearParametro("@urlImagen", modificar.UrlImagen);
+                datos.setearParametro("@precio", modificar.Precio);
+                datos.setearParametro("@id", modificar.Id);
 
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally 
+            { 
+                datos.cerrarConexion();
+            }
         }
 
     }

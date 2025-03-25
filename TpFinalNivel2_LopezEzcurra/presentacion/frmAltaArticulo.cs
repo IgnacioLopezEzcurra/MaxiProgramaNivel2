@@ -15,9 +15,19 @@ namespace presentacion
 {
     public partial class frmAltaArticulo : Form
     {
+
+        private Articulo articulo = null;
+
         public frmAltaArticulo()
         {
             InitializeComponent();
+        }
+
+        public frmAltaArticulo(Articulo articulo)
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+            Text = "Modificar Articulo";
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -27,7 +37,7 @@ namespace presentacion
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            Articulo arti = new Articulo();
+            //Articulo arti = new Articulo();
             ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
@@ -46,18 +56,31 @@ namespace presentacion
                     return; // Detiene la ejecución si se detecta un punto.
                 }
 
+                if(articulo == null) {
 
-                arti.Codigo = txtCodigo.Text;
-                arti.Nombre = txtNombre.Text;
-                arti.Descripcion = txtDescripcion.Text;
-                arti.UrlImagen = txtUrlImagen.Text;
-                arti.Categoria = (Categoria)cboCategoria.SelectedItem;
-                arti.Marca = (Marca)cboMarca.SelectedItem;
-                arti.Precio = decimal.Parse(txtPrecio.Text); // si ingreso decimal con punto no reconoce el punto como separacion de decimal, hay que solucionar esto
-                negocio.agregar(arti);
+                    articulo = new Articulo();
+                }
+                    articulo.Codigo = txtCodigo.Text;
+                    articulo.Nombre = txtNombre.Text;
+                    articulo.Descripcion = txtDescripcion.Text;
+                    articulo.UrlImagen = txtUrlImagen.Text;
+                    articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
+                    articulo.Marca = (Marca)cboMarca.SelectedItem;
+                    articulo.Precio = decimal.Parse(txtPrecio.Text); 
+
+                if(articulo.Id != 0)
+                {
+                    negocio.modificar(articulo);
+                    MessageBox.Show("Modificado exitosamente");
+                }
+                else
+                {
+                    negocio.agregar(articulo);
+                    MessageBox.Show("Agregado exitosamente");
+                }
 
 
-                MessageBox.Show("Agregado exitosamente");
+
                 Close();
            
             }
@@ -76,7 +99,26 @@ namespace presentacion
             try
             {
                 cboCategoria.DataSource = categoriaNegocio.listar();
+                cboCategoria.ValueMember = "Id";
+                cboCategoria.DisplayMember = "Descripcion";
                 cboMarca.DataSource = marcaNegocio.listar();
+                cboMarca.ValueMember = "Id";
+                cboMarca.DisplayMember = "Descripcion";
+
+
+                if (articulo != null)
+                {
+                    txtCodigo.Text = articulo.Codigo;
+                    txtNombre.Text = articulo.Nombre;
+                    txtDescripcion.Text = articulo.Descripcion;
+                    txtUrlImagen.Text = articulo.UrlImagen;
+                    cargarImagen(articulo.UrlImagen);
+                    cboCategoria.SelectedValue = articulo.Categoria.Id;
+                    cboMarca.SelectedValue = articulo.Marca.Id;
+                    txtPrecio.Text = articulo.Precio.ToString();
+
+                }
+
             }
             catch (Exception ex)
             {
