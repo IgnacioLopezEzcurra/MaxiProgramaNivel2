@@ -27,8 +27,19 @@ namespace presentacion
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
-            Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
-            cargarImagen(seleccionado.UrlImagen);
+            
+            if (dgvArticulos.CurrentRow == null)
+            {
+                if (dgvArticulos.Rows.Count > 0)
+                {
+                    dgvArticulos.CurrentCell = dgvArticulos.Rows[0].Cells[0]; // Fuerza la selección de la primera fila. Esto es porque si al iniciar la app y sin seleccionar ningun item de la dgv, aprieto agregar y quiero regresar a la pantalla inicial la app crasheaba porque no tenia ningun elemento seleccionado. 
+                }
+            }
+            else
+            {
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                cargarImagen(seleccionado.UrlImagen);
+            }
         }
 
         private void cargar()
@@ -70,12 +81,19 @@ namespace presentacion
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            Articulo seleccionado;
-            seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
 
-            frmAltaArticulo modificar = new frmAltaArticulo(seleccionado);
-            modificar.ShowDialog();
-            cargar();
+            if (dgvArticulos.CurrentRow == null)
+            {
+                MessageBox.Show("No has seleccionado ningún artículo, por favor haz clic en uno y vuelve a seleccionar el botón 'Modificar'", "¡Cuidado!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                frmAltaArticulo modificar = new frmAltaArticulo(seleccionado);
+                modificar.ShowDialog();
+                cargar();
+            }
+
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
