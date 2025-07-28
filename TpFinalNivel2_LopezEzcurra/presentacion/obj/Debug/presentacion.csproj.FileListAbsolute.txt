@@ -14,3 +14,4 @@ C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcu
 C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\bin\Debug\negocio.dll
 C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\bin\Debug\negocio.pdb
 C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\obj\Debug\presentacion.frmAltaArticulo.resources
+C:\Users\Virginia\Desktop\Nacho\Maxi Programa\C# Nivel 2\TpFinalNivel2_LopezEzcurra\presentacion\obj\Debug\presentacion.frmDetalles.resources

@@ -70,6 +70,8 @@ namespace presentacion
         {
             dgvArticulos.Columns["UrlImagen"].Visible = false; //aqui por alguna razon se rompía, pero cambie el ImagenUrl a Url Imagen y funciono
             dgvArticulos.Columns["Id"].Visible = false;
+            dgvArticulos.Columns["Descripcion"].Visible=false;
+            dgvArticulos.Columns["Codigo"].Visible = false;
         }
 
         private void cargarImagen(string imagen)
@@ -136,6 +138,40 @@ namespace presentacion
             string filtro = txtFiltro.Text;
 
             if(filtro != "")
+            {
+                listaFiltrada = listaArticulo.FindAll(x => x.Nombre.ToUpper().Contains(filtro.ToUpper()) || x.Categoria.Descripcion.ToUpper().Contains(filtro.ToUpper()) || x.Marca.Descripcion.ToUpper().Contains(filtro.ToUpper()));
+            }
+            else
+            {
+                listaFiltrada = listaArticulo;
+            }
+
+            dgvArticulos.DataSource = null;
+            dgvArticulos.DataSource = listaFiltrada;
+            ocultarColumnas();
+        }
+
+        private void btnDetalle_Click(object sender, EventArgs e)
+        {
+            if (dgvArticulos.CurrentRow == null)
+            {
+                MessageBox.Show("No has seleccionado ningún artículo, por favor haz clic en uno y vuelve a seleccionar el botón 'Ver Detalles'", "¡Cuidado!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                frmDetalles detalle = new frmDetalles(seleccionado);
+                detalle.ShowDialog();
+                cargar();
+            }
+        }
+
+        private void txtFiltro_TextChanged(object sender, EventArgs e)
+        {
+            List<Articulo> listaFiltrada;
+            string filtro = txtFiltro.Text;
+
+            if (filtro.Length >= 3)
             {
                 listaFiltrada = listaArticulo.FindAll(x => x.Nombre.ToUpper().Contains(filtro.ToUpper()) || x.Categoria.Descripcion.ToUpper().Contains(filtro.ToUpper()) || x.Marca.Descripcion.ToUpper().Contains(filtro.ToUpper()));
             }
