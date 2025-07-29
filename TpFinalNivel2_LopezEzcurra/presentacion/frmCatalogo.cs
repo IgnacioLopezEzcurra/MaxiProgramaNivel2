@@ -138,27 +138,56 @@ namespace presentacion
             }
         }
 
+        private bool validarFiltro()
+        {
+            if (cboCampo.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor seleccione el campo para filtrar");
+                return true;
+            }
+                if(cboCriterio.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor seleccione el criterio para filtrar");
+                return true;
+            }
+            if (cboCampo.SelectedItem.ToString() == "Precio")
+            {
+                if (string.IsNullOrEmpty(txtFiltroAvanzado.Text))
+                {
+                    MessageBox.Show("Debes cargar el filtro para el precio. Introduce un precio entero");
+                    return true;
+                }
+                if (!(soloNumeros(txtFiltroAvanzado.Text)))
+                {
+                    MessageBox.Show("Solo números enteros para filtrar, por favor");
+                    return true;
+                }
+
+            }
+
+                return false;
+        }
+
+        private bool soloNumeros(string cadena)
+        {
+            foreach (char caracter in cadena)
+            {
+                if (!(char.IsNumber(caracter)))
+                    return false;
+            }
+            return true;
+
+        }
+
         private void btnFiltro_Click(object sender, EventArgs e)
         {
-            /*List<Articulo> listaFiltrada;
-            string filtro = txtFiltro.Text;
-
-            if(filtro != "")
-            {
-                listaFiltrada = listaArticulo.FindAll(x => x.Nombre.ToUpper().Contains(filtro.ToUpper()) || x.Categoria.Descripcion.ToUpper().Contains(filtro.ToUpper()) || x.Marca.Descripcion.ToUpper().Contains(filtro.ToUpper()));
-            }
-            else
-            {
-                listaFiltrada = listaArticulo;
-            }
-
-            dgvArticulos.DataSource = null;
-            dgvArticulos.DataSource = listaFiltrada;
-            ocultarColumnas();*/
             ArticuloNegocio negocio = new ArticuloNegocio();
 
             try
             {
+                if (validarFiltro())
+                    return;
+
             string campo = cboCampo.SelectedItem.ToString();
             string criterio = cboCriterio.SelectedItem.ToString();
             string filtro = txtFiltroAvanzado.Text;

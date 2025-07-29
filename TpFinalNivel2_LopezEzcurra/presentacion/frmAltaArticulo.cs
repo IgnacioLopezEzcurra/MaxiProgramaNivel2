@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using dominio;
 using negocio;
+using System.Configuration;
 
 
 namespace presentacion
@@ -17,7 +19,7 @@ namespace presentacion
     {
 
         private Articulo articulo = null;
-
+        private OpenFileDialog archivo = null;
         public frmAltaArticulo()
         {
             InitializeComponent();
@@ -79,7 +81,13 @@ namespace presentacion
                     MessageBox.Show("Agregado exitosamente");
                 }
 
+                //Guardo imagen si la levanto localmente:
 
+                if(archivo != null && !(txtUrlImagen.Text.ToUpper().Contains("HTTP")))
+                {
+                    File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + archivo.SafeFileName);
+
+                }
 
                 Close();
            
@@ -144,5 +152,17 @@ namespace presentacion
             }
         }
 
+        private void btnAgregarImagen_Click(object sender, EventArgs e)
+        {
+            archivo = new OpenFileDialog();
+            archivo.Filter = "jpg|*.jpg|png|*.png";
+            if(archivo.ShowDialog() == DialogResult.OK)
+            {
+                txtUrlImagen.Text = archivo.FileName;
+                cargarImagen(archivo.FileName);
+
+                //File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + archivo.SafeFileName);
+            }
+        }
     }
 }

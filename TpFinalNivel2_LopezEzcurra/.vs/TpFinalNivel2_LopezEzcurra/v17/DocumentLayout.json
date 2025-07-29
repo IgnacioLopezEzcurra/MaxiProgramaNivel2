@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20756849-B4C4-4FD8-AF2C-606FFD025B52}|negocio\\negocio.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20756849-B4C4-4FD8-AF2C-606FFD025B52}|negocio\\negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|c:\\users\\virginia\\desktop\\nacho\\maxi programa\\c# nivel 2\\tpfinalnivel2_lopezezcurra\\presentacion\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|c:\\users\\virginia\\desktop\\nacho\\maxi programa\\c# nivel 2\\tpfinalnivel2_lopezezcurra\\presentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmdetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20756849-B4C4-4FD8-AF2C-606FFD025B52}|negocio\\negocio.csproj|c:\\users\\virginia\\desktop\\nacho\\maxi programa\\c# nivel 2\\tpfinalnivel2_lopezezcurra\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20756849-B4C4-4FD8-AF2C-606FFD025B52}|negocio\\negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmcatalogo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +39,12 @@
       "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmdetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmdetalles.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetalles.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A645E4E7-6793-4346-8037-ECCE21F54202}|dominio\\dominio.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A645E4E7-6793-4346-8037-ECCE21F54202}|dominio\\dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5448C34C-7DFB-4894-BD27-96B7450732E7}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A645E4E7-6793-4346-8037-ECCE21F54202}|dominio\\dominio.csproj|C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,6 +82,33 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCatalogo.cs",
+              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmCatalogo.cs",
+              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.cs",
+              "RelativeToolTip": "presentacion\\frmCatalogo.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAjwKEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:06:56.222Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\App.config",
+              "RelativeDocumentMoniker": "presentacion\\App.config",
+              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\App.config",
+              "RelativeToolTip": "presentacion\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-29T19:03:01.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "frmDetalles.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmDetalles.cs",
@@ -90,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "frmCatalogo.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.cs",
               "RelativeDocumentMoniker": "presentacion\\frmCatalogo.cs",
@@ -103,45 +134,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmCatalogo.cs",
-              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.cs",
-              "RelativeDocumentMoniker": "presentacion\\frmCatalogo.cs",
-              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.cs",
-              "RelativeToolTip": "presentacion\\frmCatalogo.cs",
-              "ViewState": "AQIAAM0AAAAAAAAAAADgv6IAAAAMAAAA",
+              "Title": "frmAltaArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmAltaArticulo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:06:56.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmDetalles.cs",
-              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmDetalles.cs",
-              "RelativeDocumentMoniker": "presentacion\\frmDetalles.cs",
-              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmDetalles.cs",
-              "RelativeToolTip": "presentacion\\frmDetalles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T23:57:19.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmCatalogo.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.Designer.cs",
-              "RelativeDocumentMoniker": "presentacion\\frmCatalogo.Designer.cs",
-              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.Designer.cs",
-              "RelativeToolTip": "presentacion\\frmCatalogo.Designer.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAjwKYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T00:27:28.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T16:04:22.948Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmAltaArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs",
+              "RelativeToolTip": "presentacion\\frmAltaArticulo.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAewCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T01:21:16.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ArticuloNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\negocio\\ArticuloNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ArticuloNegocio.cs",
@@ -154,30 +171,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmAltaArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs",
-              "RelativeDocumentMoniker": "presentacion\\frmAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs",
-              "RelativeToolTip": "presentacion\\frmAltaArticulo.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAowDwAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:21:16.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmAltaArticulo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs",
-              "RelativeDocumentMoniker": "presentacion\\frmAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmAltaArticulo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "presentacion\\frmAltaArticulo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:04:22.948Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "frmCatalogo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.Designer.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmCatalogo.Designer.cs",
+              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmCatalogo.Designer.cs",
+              "RelativeToolTip": "presentacion\\frmCatalogo.Designer.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAjwKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:27:28.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDetalles.cs",
+              "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmDetalles.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmDetalles.cs",
+              "ToolTip": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmDetalles.cs",
+              "RelativeToolTip": "presentacion\\frmDetalles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T23:57:19.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "frmDetalles.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\frmDetalles.Designer.cs",
               "RelativeDocumentMoniker": "presentacion\\frmDetalles.Designer.cs",
@@ -190,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\dominio\\Articulo.cs",
               "RelativeDocumentMoniker": "dominio\\Articulo.cs",
@@ -202,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\dominio\\Marca.cs",
               "RelativeDocumentMoniker": "dominio\\Marca.cs",
@@ -214,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\dominio\\Categoria.cs",
               "RelativeDocumentMoniker": "dominio\\Categoria.cs",
@@ -226,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
@@ -238,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MarcaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\negocio\\MarcaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\MarcaNegocio.cs",
@@ -250,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CategoriaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\negocio\\CategoriaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
@@ -262,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Virginia\\Desktop\\Nacho\\Maxi Programa\\C# Nivel 2\\TpFinalNivel2_LopezEzcurra\\presentacion\\Program.cs",
               "RelativeDocumentMoniker": "presentacion\\Program.cs",

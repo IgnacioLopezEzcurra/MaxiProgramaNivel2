@@ -44,6 +44,7 @@
             this.cboMarca = new System.Windows.Forms.ComboBox();
             this.txtUrlImagen = new System.Windows.Forms.TextBox();
             this.lblUrlImagen = new System.Windows.Forms.Label();
+            this.btnAgregarImagen = new System.Windows.Forms.Button();
             this.pbxArticulo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.SuspendLayout();
@@ -185,6 +186,18 @@
             this.lblUrlImagen.TabIndex = 14;
             this.lblUrlImagen.Text = "Url Imagen:";
             // 
+            // btnAgregarImagen
+            // 
+            this.btnAgregarImagen.BackColor = System.Drawing.SystemColors.Control;
+            this.btnAgregarImagen.BackgroundImage = global::presentacion.Properties.Resources.iconup;
+            this.btnAgregarImagen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnAgregarImagen.Location = new System.Drawing.Point(365, 147);
+            this.btnAgregarImagen.Name = "btnAgregarImagen";
+            this.btnAgregarImagen.Size = new System.Drawing.Size(64, 54);
+            this.btnAgregarImagen.TabIndex = 17;
+            this.btnAgregarImagen.UseVisualStyleBackColor = false;
+            this.btnAgregarImagen.Click += new System.EventHandler(this.btnAgregarImagen_Click);
+            // 
             // pbxArticulo
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(443, 33);
@@ -199,6 +212,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1056, 450);
+            this.Controls.Add(this.btnAgregarImagen);
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.txtUrlImagen);
             this.Controls.Add(this.lblUrlImagen);
@@ -247,5 +261,6 @@
         private System.Windows.Forms.TextBox txtUrlImagen;
         private System.Windows.Forms.Label lblUrlImagen;
         private System.Windows.Forms.PictureBox pbxArticulo;
+        private System.Windows.Forms.Button btnAgregarImagen;
     }
 }
